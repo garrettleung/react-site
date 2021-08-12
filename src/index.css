@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-bar {
+  width: 100%;
+  background-color: black;
+  background: black;
+  box-shadow: 0px 0px 5px 4px black;
+  overflow: auto;
+  float:left;
+  padding-top: 7px;
+  padding-bottom: 2px;
+}
+
+.socials {
+  width: 50%;
+  overflow: auto;
+  float:right;
+  text-align: right;
+  
+}
+
+
+#linkedincontainer {
+  width: 28px;
+  filter: brightness(0) invert(1);
+}
+
+#githubcontainer {
+  padding-left: 5px;
+  width: 27px;
+  filter: brightness(0) invert(1);
+}
+
+#twitchcontainer {
+  padding-left: 9px;
+  width: 25px;
+  filter: brightness(0) invert(1);
+}
+
+#instagramcontainer {
+  padding-left: 9px;
+  padding-right: 12px;
+  width: 25px;
+  filter: brightness(0) invert(1);
+}
+
+.nav-buttons {
+  padding-top: 3px;
+  width: 50%;
+  overflow: auto;
+  float: left;
+  
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  float: left;
+  font-size: 20px;
+  color:white;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.top {
+  margin-top: 30px;
+}

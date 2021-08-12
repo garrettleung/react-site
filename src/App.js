@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation, Footer, Home, Projects, Resume, Yelp} from "../src/components";
+import { Navigation, Footer, Home, Projects, Resume, Yelp} from "./components";
 import './App.css';
 
 function App() {
