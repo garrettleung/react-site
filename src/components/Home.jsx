@@ -8,7 +8,7 @@ function Home() {
         <div class="">
           <div class="col-lg-7">
             <div class = "about-me">
-              Me talking about me
+              Hi, I'm Garrett Leung!
             </div>
             <img
               id="me"
