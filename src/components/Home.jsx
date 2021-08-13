@@ -8,7 +8,7 @@ function Home() {
         <div class="">
           <div class="col-lg-7">
             <div class = "about-me">
-              testing aseawiugbaibiaug
+              Me talking about me
             </div>
             <img
               id="me"
