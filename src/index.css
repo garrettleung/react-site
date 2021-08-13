@@ -24,7 +24,7 @@ code {
 }
 
 .socials {
-  width: 50%;
+  width: 28%;
   overflow: auto;
   float:right;
   text-align: right;
@@ -58,7 +58,7 @@ code {
 
 .nav-buttons {
   padding-top: 3px;
-  width: 50%;
+  width: 72%;
   overflow: auto;
   float: left;
   
@@ -79,4 +79,23 @@ code {
 
 .top {
   margin-top: 30px;
+}
+
+.about-me {
+  float: left;
+  position: absolute;
+  left: 20%;
+  width: 60%;
+  padding: 20px;
+  top: 40vw;
+  z-index: 1000;
+  background: rgba(0,0,0,0.2);
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#me {
+  width: 100%;
+  opacity: 80%;
+  position: relative;
 }
