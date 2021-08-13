@@ -1,5 +1,5 @@
 import React from "react";
-import me from './pictures/me.jpeg'
+import me from './pictures/me.png'
 
 function Home() {
   return (
