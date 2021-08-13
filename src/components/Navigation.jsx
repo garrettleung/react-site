@@ -4,12 +4,21 @@ import linkedin from './pictures/linkedin.png'
 import github from './pictures/github.svg'
 import twitch from './pictures/twitch.png'
 import instagram from './pictures/instagram.png'
+import ScrollButton from './ScrollButton.js'; 
+import ScrollUp from "./ScrollUp.js";
+
 
 
 
 function Navigation(props) {
+    
     return (
         <div className = "navigation">
+        
+            <ScrollButton/> 
+            <ScrollUp/>
+            
+
             <div class = "nav-bar">
                 <div class = "nav-buttons">
                     <li
@@ -87,3 +96,5 @@ function Navigation(props) {
 }
 
 export default withRouter(Navigation);
+
+

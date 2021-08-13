@@ -4,6 +4,7 @@ import me from './pictures/me.jpeg'
 function Home() {
   return (
     <div className="home">
+    <script src="./scroll.js"></script>
       <div class="container">
         <div class="">
           <div class="col-lg-7">
@@ -30,7 +31,9 @@ function Home() {
           </div>
         </div>
       </div>
+      
     </div>
+    
   );
 }
 
