@@ -13,6 +13,7 @@ function Navigation(props) {
             <div class = "nav-bar">
                 <div class = "nav-buttons">
                     <li
+                        id = "home"
                         class={`nav-item  ${
                         props.location.pathname === "/" ? "active" : ""
                         }`}
@@ -23,6 +24,7 @@ function Navigation(props) {
                     </li>
 
                     <li
+                        id = "projects"
                         class={`nav-item  ${
                         props.location.pathname === "/projects" ? "active" : ""
                         }`}
@@ -33,6 +35,7 @@ function Navigation(props) {
                     </li>
                     
                     <li
+                        id = "resume"
                         class={`nav-item  ${
                         props.location.pathname === "/resume" ? "active" : ""
                         }`}
@@ -43,6 +46,7 @@ function Navigation(props) {
                     </li>
 
                     <li
+                        id = "yelp"
                         class={`nav-item  ${
                         props.location.pathname === "/yelp" ? "active" : ""
                         }`}
