@@ -37,6 +37,91 @@ code {
   
 }
 
+.title {
+  font-size: 32px;
+  margin: 0;
+  padding-top: 4%;
+}
+
+.project-box {
+  background-color: #FFFFFF;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  height: 20%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.upper-project {
+  width: 75%;
+  display: inline-block;
+}
+
+.project-title-links {
+  font-size: 30px;
+  padding-top: 1%;
+  width: 30%;
+  display: inline-block;
+  text-align: left;
+  padding-top: 3%;
+  padding-left: 1%;
+}
+
+.project-title {
+  width: 100%;
+  font-size: 26px;
+}
+
+.link-box {
+  font-size: 14px;
+
+}
+
+.taglist {
+  width: 65%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  padding-top: 3%;
+  padding-right: 1%;
+}
+
+.project-pic-box {
+  width: 23%;
+  display: inline-block;
+  vertical-align: top;
+  height: 23%;
+  margin-top: 2.2%;
+  margin-left: 0%;
+  margin-bottom: 2.2%;
+}
+
+.project-pic {
+  vertical-align: top;
+  width: 90%;
+}
+
+.project-desc {
+  width: 65%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: inline-block;
+  text-align: center;
+}
+
+.link-box {
+  width: 100%;
+  display: inline-block;
+}
+
+.link {
+  display: inline-block;
+  padding-right: 2%;
+  text-decoration: underline;
+  color: #79abe0;
+  font-size: 20px;
+}
+
 #home {
   color: #FFFFFF;
   transition: color 0.3s ease-in-out;
@@ -55,6 +140,46 @@ code {
 #projects:hover {
   color: #f3d27e;
   transition: color 0.3s ease-in-out;
+}
+
+#design-tag {
+ color: white;
+ background-color: #ff5f4e;
+  display: inline-block;
+  margin: 2px;
+  padding: 7px;
+  border-radius: 25px;
+  border: 2px solid #ff5f4e;
+}
+
+#coding-tag {
+  color: white;
+  background-color: #79abe0;
+  display: inline-block;
+  margin: 2px;
+  padding: 7px;
+  border-radius: 25px;
+  border: 2px solid #79abe0;
+}
+
+#tools-tag {
+  color: white;
+  background-color: #b4b957;
+  display: inline-block;
+  margin: 2px;
+  padding: 7px;
+  border-radius: 25px;
+  border: 2px solid #b4b957;
+}
+
+#other-tag {
+  color: white;
+  background-color: #f3d27e;
+  display: inline-block;
+  margin: 2px;
+  padding: 7px;
+  border-radius: 25px;
+  border: 2px solid #f3d27e;
 }
 
 #resume {
