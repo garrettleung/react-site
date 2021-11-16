@@ -149,8 +149,8 @@ function Projects() {
   let CSAsite_links = []
   let CSAsite_names = []
   let rewire_tags = ['Figma', 'HTML', 'CSS', "JavaScript", "React", "Google Cloud API"]
-  let rewire_links = ['https://devpost.com/software/rewired?ref_content=user-portfolio&ref_feature=in_progress', "a"]
-  let rewire_names = ['Devpost', "test"]
+  let rewire_links = ['https://devpost.com/software/rewired?ref_content=user-portfolio&ref_feature=in_progress', "https://github.com/jacobcz64/rewired", 'https://www.figma.com/file/Ki0awTssYrrGAKT38JEKnd/rewired?node-id=0%3A1']
+  let rewire_names = ['Devpost', "Github", 'Figma']
   let wechat_tags = ['Figma', 'WXML', 'CSS', "JavaScript", 'Chart.JS']
   let wechat_links = ['']
   let wechat_names = ['']
@@ -177,7 +177,7 @@ function Projects() {
             <Project
               title = "CSAUW.com"
               tags = {CSAsite_tags}
-              description = "this is a rewire app"
+              description = "In progress"
               pic = {CSAlogo}
               date = "2021"
               links = {CSAsite_links}
@@ -186,7 +186,7 @@ function Projects() {
             <Project
               title = "Rewire"
               tags = {rewire_tags}
-              description = "this is a rewire app"
+              description = "Slalom Build dub(HACK) for Climate Solutions Challenge winning project, Rewire, is the next way to tackle climate change and improve education by connecting corporations with lower income schools and organizations to provide them with up to date software and hardware. With Rewire we ccan prevent a lot of e-waste and empower those without access to technology by taking technology that one organization no longer needs and donating it to another organization that has that need."
               pic = {rewiredlogo}
               date = "2021"
               links = {rewire_links}

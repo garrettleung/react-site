@@ -4,18 +4,19 @@ import me from './pictures/me.png'
 function Home() {
   return (
     <div className="home">
-    <script src="./scroll.js"></script>
-      <div class="container">
-        <div class="">
-          <div class="col-lg-7">
-            <div class = "hi-im-garrett">
-              Hi, I'm Garrett Leung!
-            </div>
-            <img
+      <img
               id="me"
               src={me}
               alt=""
             />
+            <div class = "hi-im-garrett">
+              Hi, I'm Garrett Leung!
+            </div>
+    <script src="./scroll.js"></script>
+      <div class="container">
+    
+        <div class="">
+          <div class="col-lg-7">
             <a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
           </div>
           <div class = "white-background">
