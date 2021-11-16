@@ -87,18 +87,25 @@ code {
 }
 
 .project-pic-box {
-  width: 23%;
+  width: 19vw;
+  height: 17vw;
   display: inline-block;
   vertical-align: top;
-  height: 23%;
   margin-top: 2.2%;
   margin-left: 0%;
   margin-bottom: 2.2%;
 }
 
+
 .project-pic {
-  vertical-align: top;
+  vertical-align: middle;
   width: 90%;
+  height: 100%;
+  max-width: 90%;
+  max-height: 100%;
+  object-fit: cover;
+  display: inline-block;
+  position: relative;
 }
 
 .project-desc {
