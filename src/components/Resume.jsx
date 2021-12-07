@@ -5,22 +5,9 @@ function Resume() {
     <div className="Resume">
       <div class="container">
         <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="top"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Resume</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
+
+          <div class="resume-space"> </div>
+          <iframe margin-top = "2%" width = "100%" height = "1000px" src="https://docs.google.com/document/d/e/2PACX-1vSOJ6w85P22WXRlUdg6o2GdwordAb_5J1hsPvl5fmPOlwTOASgMx4z8PlA3xZ_YI52oXDV5nV6GxoAp/pub?embedded=true"></iframe>
         </div>
       </div>
     </div>

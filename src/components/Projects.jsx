@@ -91,6 +91,7 @@ class Project extends React.Component {
       title: props.title,
       tags: props.tags,
       description: props.description,
+      description2: props.description2,
       pic: props.pic,
       date: props.date,
       links: props.links,
@@ -102,6 +103,7 @@ class Project extends React.Component {
     const title = this.state.title;
     const tags = this.state.tags;
     const description = this.state.description;
+    const description2 = this.state.description2;
     const pic = this.state.pic;
     const date = this.state.date;
     const links = this.state.links;
@@ -137,6 +139,9 @@ class Project extends React.Component {
           
           <div class = "project-desc">
             {description}
+          </div>
+          <div class = "project-desc">
+            {description2}
           </div>
         </div>
       </div>
@@ -187,6 +192,7 @@ function Projects() {
               title = "Rewire"
               tags = {rewire_tags}
               description = "Slalom Build dub(HACK) for Climate Solutions Challenge winning project, Rewire, is the next way to tackle climate change and improve education by connecting corporations with lower income schools and organizations to provide them with up to date software and hardware. With Rewire we ccan prevent a lot of e-waste and empower those without access to technology by taking technology that one organization no longer needs and donating it to another organization that has that need."
+              description2 = "For this project, we used react to implement all the frontend"
               pic = {rewiredlogo}
               date = "2021"
               links = {rewire_links}

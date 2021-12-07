@@ -20,7 +20,10 @@ function Home() {
             <a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
           </div>
           <div class = "white-background">
-            <div class = "about-me">
+            <div class = "about-me-head">
+              Garrett Leung
+            </div>
+            <div class = "about-me-desc">
             I'm a student at the University of Washington majoring in electrical and computer engineering where I can collaborate and innovate to tackle society's problems. 
             <br></br>
             <br></br>
