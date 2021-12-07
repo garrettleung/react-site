@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa0d2b24.chunk.css",
+    "main.css": "/static/css/main.be51c95a.chunk.css",
     "main.js": "/static/js/main.94d271e7.chunk.js",
     "main.js.map": "/static/js/main.94d271e7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.97d9ebb8.js",
@@ -10,7 +10,7 @@
     "static/js/3.28d9f86e.chunk.js": "/static/js/3.28d9f86e.chunk.js",
     "static/js/3.28d9f86e.chunk.js.map": "/static/js/3.28d9f86e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.aa0d2b24.chunk.css.map": "/static/css/main.aa0d2b24.chunk.css.map",
+    "static/css/main.be51c95a.chunk.css.map": "/static/css/main.be51c95a.chunk.css.map",
     "static/js/2.74740d92.chunk.js.LICENSE.txt": "/static/js/2.74740d92.chunk.js.LICENSE.txt",
     "static/media/CSA.783e858a.jpg": "/static/media/CSA.783e858a.jpg",
     "static/media/WeFit.4691e0c1.png": "/static/media/WeFit.4691e0c1.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.97d9ebb8.js",
     "static/js/2.74740d92.chunk.js",
-    "static/css/main.aa0d2b24.chunk.css",
+    "static/css/main.be51c95a.chunk.css",
     "static/js/main.94d271e7.chunk.js"
   ]
 }
