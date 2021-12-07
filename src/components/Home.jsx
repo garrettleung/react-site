@@ -21,13 +21,23 @@ function Home() {
           </div>
           <div class = "white-background">
             <div class = "about-me">
-            I'm a student at the University of Washington majoring in electrical and computer engineering where I can collaborate and innovate to tackle society's problems. 
+              <div class = "about-me-title">
+                Garrett Leung
+              </div>
+            It's nice to meet you! I am a Electrical and Computer Engineer at the University of Washington. I am passionate about creating products that bring people together.
             <br></br>
             <br></br>
-            On my free time, I like to stream video games on twitch, play ultimate frisbee, volleyball, basketball, badminton, and basically any other sport. I am also starting to work towards Yelp Elite so feel free to join me on my journey to experience food around Seattle by checking out my reviews and sending me food recommendations. 
+            While electrical engineering is my focus at school, I find a lot of joy in prototyping and designing accessible products to tackle modern issues. 
             <br></br>
             <br></br>
-            I am open to internships so take a look at my projects, check out out my resume, and contact me above for any opportunities.
+            Lately I have been focusing on front-end development for my projects such as our Dubhacks award winning product, Rewire, which is used to connect corporations with lower income schools in order to supply them up to date software and hardware. I've been working a lot with Figma, JavaScript, and React in order to make my projects clean and intuitive.
+            <br></br>
+            <br></br>
+            On my free time, I like to stream video games with my friends on Twich,
+             coach my highschool frisbee team, play on UW's club Frisbee team, and basically play any other sport (besides soccer because my body can says no to soccer). I am also a major foody so check out my yelp for recommendations. I will try my best to push out the dozens of reviews in my drafts. 
+            <br></br>
+            <br></br>
+            I am open to internships so feel free to take a look at my projects, check out out my resume, and contact me above for any opportunities.
             </div>
           </div>
         </div>
